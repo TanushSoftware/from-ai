@@ -1,7 +1,7 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div class="ant-result ant-result-404 css-acm2ia">
@@ -289,14 +289,14 @@ function App() {
             </g>
           </svg>
         </div>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <h2 class="title">Coming Soon</h2>
-        <br/>
+        <br />
         <p class="sub-title">From - AI</p>
       </div>
     </div>
   );
-}
+};
 
 export default App;
